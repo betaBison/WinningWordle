@@ -116,7 +116,8 @@ class WordleAI():
         """
         # read in dictionary
         root_dir = os.path.dirname(os.path.realpath(__file__))
-        file_path = os.path.join(root_dir,"fiveletterwords.txt")
+        # file_path = os.path.join(root_dir,"fiveletterwords.txt")
+        file_path = os.path.join(root_dir,"wordledict.txt")
         file = open(file_path, "r")
         all_words = file.read().split("\n")
 
@@ -329,7 +330,7 @@ class WordleAI():
 
     def input_evaluation(self):
         """Get evaluation metrics from the user
-        
+
         Returns
         -------
         victory : bool
