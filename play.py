@@ -18,7 +18,6 @@ def main():
 
     # pick a random five letter word
     solution, all_words = random_solution()
-    solution = "point"
 
     victory = False
     turn_count = 0
