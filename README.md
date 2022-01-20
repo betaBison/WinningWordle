@@ -1,6 +1,19 @@
 # WinningWordle
 Searching the English language for the best starting word for the game, [Wordle](https://www.powerlanguage.co.uk/wordle/)
 
+## play.py
+
+Play wordle with `python3 play.py`
+
+Allows you to play wordle with an advisor. Words are ranked based on
+the probability that each letter appears in each of the five letter
+positions.
+
+Based on that ranking, the best first word is:
+### cares
+
+
+## main.py
 The rules are simple:
 <ol>
   <li>The word must have 5 only letters</li>

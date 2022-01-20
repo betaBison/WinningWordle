@@ -62,3 +62,7 @@ print('Best Wordl starter is: ' + bestCandidate + ' with a score of ' + str(cand
 
 # print out all candidate words sorted in order of increasing score
 print({k: v for k, v in sorted(candidateScores.items(), key=lambda item: item[1])})
+
+with open("fiveletterwords.txt", 'w') as f:
+    for key in candidateScores.keys():
+        f.write(key + "\n")
